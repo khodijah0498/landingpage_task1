@@ -46,7 +46,7 @@ const Atoms = () => {
         </section>
       ))}
 
-    </div
+    </div>
   );
 }
 
