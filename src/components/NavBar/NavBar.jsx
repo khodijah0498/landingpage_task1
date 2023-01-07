@@ -28,7 +28,7 @@ const NavBar = () => {
   ];
   return (
     <div className="nav-wrapper">
-      <div className="logo"><img src="/public/vector/shoelogo.jpg" alt="logo" /></div>
+      <div className="logo"><img src="/vector/shoelogo.jpg" alt="logo" /></div>
       <div className="tabs">
         {tabs.map(({ name, link }, index) => (
           <div key={index} onClick={() => navigate(link)} className="tab">
