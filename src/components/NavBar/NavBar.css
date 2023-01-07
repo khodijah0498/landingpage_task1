@@ -1,0 +1,14 @@
+.nav-wrapper{
+    @apply flex justify-between w-[90%] mx-auto items-center ;  
+    cursor: pointer;   
+}
+.tabs{
+    @apply flex;
+
+}
+.tab{
+    @apply p-5;
+}
+.logo{
+    @apply h-[50px] w-[50px]
+}

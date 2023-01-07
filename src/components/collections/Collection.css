@@ -1,0 +1,15 @@
+ .shoe-collection {
+    @apply flex flex-col bg-[#f2f2f2] items-start
+  } 
+
+.shoe-imgcollection {
+
+}
+.both{
+    @apply flex flex-col justify-between 
+}
+.titled{
+    font-size: 1rem;
+    font-weight: 400;
+}
+

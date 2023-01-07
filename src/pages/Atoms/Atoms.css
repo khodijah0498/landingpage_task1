@@ -1,0 +1,17 @@
+.part1 {
+    @apply bg-[#f2f2f2] h-[45%] rounded-[20px] flex justify-between items-center px-7
+
+}
+img{
+    @apply w-[300px] h-[300px] bg-[none]
+}
+.button{
+    @apply bg-[#c1f64e] h-[60px] w-[60px] rounded-full
+}
+.part2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  margin-top: 1.5rem;
+  
+}
