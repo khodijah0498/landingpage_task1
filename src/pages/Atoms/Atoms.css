@@ -1,17 +1,24 @@
 .part1 {
-    @apply bg-[#f2f2f2] h-[45%] rounded-[20px] flex justify-between items-center px-7
+    @apply bg-[#f2f2f2] h-[30%] rounded-[20px] flex justify-between items-center px-7 mt-[5px];
+    
 
 }
-img{
-    @apply w-[300px] h-[300px] bg-[none]
+.part-title{
+    font-size: 70px;
+    font-family: VC Garamond Condensed;
+    font-weight: 400;
+    
+}
+.image{
+    @apply w-[300px] h-[300px] 
 }
 .button{
-    @apply bg-[#c1f64e] h-[60px] w-[60px] rounded-full
+    @apply bg-[#c1f64e] h-[60px] w-[90px] rounded-full
 }
 .part2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
-  margin-top: 1.5rem;
+  
   
 }

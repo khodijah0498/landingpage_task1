@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Atoms.css";
 import ShoeCollection from "../../components/collections/Collection";
+import List from '../../components/List/List';
 
 const datam = [
   {
@@ -11,7 +12,7 @@ const datam = [
         des: "Model001",
       },
       {
-        img: "/public/vector/shoe5.webp",
+        img: "/public/vector/shoe7.jpg",
         des: "Model001",
       },
       {
@@ -26,10 +27,10 @@ const Atoms = () => {
   return (
     <div className='atom'>
       <div className="part1">
-        <h1>
+        <h1 className='part-title'>
           Simple Shoe, <br /> Crazy Comfort
         </h1>
-        <img src="/public/vector/shoe1.jpg" alt="shoe1" />
+        <img className = "image"src="/public/vector/shoe1.jpg" alt="shoe1" />
         <div>
           <p>Introducting Model 001---the ultimate everyday shoe.</p>
           <button className="button">Shop</button>
@@ -45,7 +46,8 @@ const Atoms = () => {
           </div>
         </section>
       ))}
-
+   < List />
+ 
     </div>
   );
 }

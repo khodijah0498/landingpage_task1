@@ -5,7 +5,7 @@ import "./Collection.css"
   return (
     <div className="shoe-collection">
       <div className="shoe-imgcollection">
-        <h4>New</h4>
+        <p className='new'>New</p>
         <img src={img} />
         <div className="both">
           <h3 className="titled">{des}</h3>
