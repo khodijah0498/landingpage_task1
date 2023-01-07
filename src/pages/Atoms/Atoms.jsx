@@ -8,15 +8,15 @@ const datam = [
     title: "Essential Colors For Model001",
     data: [
       {
-        img: "/public/vector/shoe2.jpg",
+        img: "/vector/shoe2.jpg",
         des: "Model001",
       },
       {
-        img: "/public/vector/shoe7.jpg",
+        img: "/vector/shoe7.jpg",
         des: "Model001",
       },
       {
-        img: "/public/vector/shoe6.webp",
+        img: "/vector/shoe6.webp",
         des: "Model001",
       },
     ]
@@ -30,7 +30,7 @@ const Atoms = () => {
         <h1 className='part-title'>
           Simple Shoe, <br /> Crazy Comfort
         </h1>
-        <img className = "image"src="/public/vector/shoe1.jpg" alt="shoe1" />
+        <img className = "image"src="/vector/shoe1.jpg" alt="shoe1" />
         <div>
           <p>Introducting Model 001---the ultimate everyday shoe.</p>
           <button className="button">Shop</button>

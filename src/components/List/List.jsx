@@ -15,7 +15,7 @@ const List = () => {
         <button className="shop-button">Shop Men</button>
         <button className="shop-button">Shop Women</button>
       </div>
-      <img src="/public/vector/shoe8.webp" alt="" />
+      <img src="/vector/shoe8.webp" alt="" />
     </div>
   );
 }
