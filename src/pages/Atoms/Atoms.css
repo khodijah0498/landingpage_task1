@@ -1,5 +1,6 @@
 .part1 {
     @apply bg-[#f2f2f2] h-[30%] rounded-[20px] flex justify-between items-center px-7 mt-[5px];
+    margin-bottom: 2rem;
     
 
 }
