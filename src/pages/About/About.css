@@ -1,0 +1,25 @@
+.about{
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+}
+.about-title{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 1.5rem;
+}
+.about-des{
+    font-size: 19px;
+    font-weight: 400; 
+}
+.about-button{
+    @apply bg-[#c1f64e] h-[50px] w-[200px] rounded-full;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.about-img{
+    @apply rounded-[20px]
+}

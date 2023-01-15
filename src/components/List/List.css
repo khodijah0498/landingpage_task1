@@ -11,9 +11,11 @@
 
 }
 .title{
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 800;
-    font-family: VC Garamond Condensed;
+    font-family: 'Cormorant Garamond', serif;;
+    line-height: 70px;
+    margin-bottom: 2rem;
 }
 .shop{
     @apply flex flex-row gap-2 justify-center items-center;

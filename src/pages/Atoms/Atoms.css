@@ -1,20 +1,26 @@
 .part1 {
-    @apply bg-[#f2f2f2] h-[30%] rounded-[20px] flex justify-between items-center px-7 mt-[5px];
+    @apply bg-[#f2f2f2] h-[15%] rounded-[20px]  px-7 mt-[5px];
     margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 500px auto 500px;
+    align-items: center;
     
 
 }
 .part-title{
-    font-size: 70px;
-    font-family: VC Garamond Condensed;
-    font-weight: 400;
+    font-size: 90px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 65px;
     
 }
 .image{
     @apply w-[300px] h-[300px] 
 }
 .button{
-    @apply bg-[#c1f64e] h-[60px] w-[90px] rounded-full
+    @apply bg-[#c1f64e] h-[50px] w-[115px] rounded-full;
+    margin-left: 8rem;
+    margin-top: 1rem;
 }
 .part2 {
   display: grid;
@@ -22,4 +28,16 @@
   column-gap: 2rem;
   
   
+}
+.section4{
+  margin-top: 4rem;
+}
+.part4 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 2rem;
+  margin-top: 1.5rem;
+}
+@media screen and (max-width: 768px){
+    
 }

@@ -1,0 +1,13 @@
+.card-Lastest {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-imglastest {
+  height: 250px;
+  }
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }

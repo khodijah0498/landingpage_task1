@@ -17,5 +17,23 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+@media screen and (max-width:1200px){
+ body{
+   background-color: red;
+   
+ } 
+}
+@media screen and (max-width:992px) {
+  body{
+    background-color: green
+  }
+  
+}
+@media screen and (max-width:768px) {
+  body{
+    background-color: blue;
+  }
+  
+}
 
 @tailwind utilities;

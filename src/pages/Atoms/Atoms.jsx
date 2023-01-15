@@ -2,6 +2,9 @@ import React from 'react';
 import "./Atoms.css";
 import ShoeCollection from "../../components/collections/Collection";
 import List from '../../components/List/List';
+import ShoeLastest from "../../components/Lastest/Lastest"
+import Label from '../../components/Label/Label';
+import About from '../About/About';
 
 const datam = [
   {
@@ -21,21 +24,56 @@ const datam = [
       },
     ]
 }
+];
+
+const datad = [
+  {
+    title: "Atoms in everyday@atoms",
+    data: [
+      {
+        img: "/vector/sneaker1.webp",
+        
+      },
+      {
+        img: "/vector/sneaker2.webp",
+        
+      },
+      {
+        img: "/vector/sneaker3.webp",
+        
+      },
+
+      {
+        img: "/vector/sneaker4.jpg",
+        
+      },
+      {
+        img: "/vector/sneaker5.jpg",
+      
+      },
+      {
+        img: "/vector/sneaker6.jpg",
+        
+      },
+    ]
+  }
 ]
 
 const Atoms = () => {
   return (
-    <div className='atom'>
+    <div className="atom">
       <div className="part1">
-        <h1 className='part-title'>
-          Simple Shoe, <br /> Crazy Comfort
-        </h1>
-        <img className = "image"src="/vector/shoe1.jpg" alt="shoe1" />
+        <h1 className="part-title">Comfort& magic await.Everyday.</h1>
+        <img className="image" src="/vector/myshoe.png" alt="shoe1" />
         <div>
-          <p>Introducting Model 001---the ultimate everyday shoe.</p>
+          <p>
+            Designed for the way you live your life. Atoms are beautiful in
+            their simplicity, supporting your feet with absolute comfort.
+          </p>
           <button className="button">Shop</button>
         </div>
       </div>
+      <Label />
       {datam.map((data, index) => (
         <section className="section2">
           <h1>{data.title}</h1>
@@ -46,8 +84,20 @@ const Atoms = () => {
           </div>
         </section>
       ))}
-   < List />
- 
+
+      <List />
+
+      {datad.map((data, index) => (
+        <section className="section4">
+          <h1>{data.title}</h1>
+          <div className="part4">
+            {data.data.map(({ img }, i) => (
+              <ShoeLastest key={i} img={img} />
+            ))}
+          </div>
+        </section>
+      ))}
+      <About />
     </div>
   );
 }
